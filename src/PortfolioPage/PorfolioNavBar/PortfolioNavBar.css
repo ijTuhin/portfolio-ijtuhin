@@ -1,0 +1,19 @@
+.nav-bar {
+    display: inline-block;
+    position: relative;
+  }
+  .nav-bar:before {    
+    bottom: -5px;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #000;
+    transition: width 0.5s ease-in-out 0s, left 0.5s ease-in-out 0s;
+    width: 0;
+  }
+  .nav-bar:hover:before { 
+    width: 100%; 
+    left: 0; 
+  }
