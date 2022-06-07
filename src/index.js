@@ -20,7 +20,7 @@ root.render(
 reportWebVitals();
 
 export const downArrow = require('./image/icons/down-arrow.png');
-export const portfolio = require('./image/user.jpg');
+export const portfolio = require('./image/profile/img1.jpeg');
 export const projectI1 = require('./image/projects/Project-I-1.png');
 export const projectI2 = require('./image/projects/Project-I-2.png');
 export const projectI3 = require('./image/projects/Project-I-3.png');

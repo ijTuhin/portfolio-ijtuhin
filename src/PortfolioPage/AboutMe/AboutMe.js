@@ -11,8 +11,8 @@ const AboutMe = () => {
                         <h1 className='text-gray-500 -mt-0.5 ml-[85%] text-sm'>ijTuhin638@gmail.com</h1>
                         <h1 className='text-gray-500 ml-[85%] text-xs'>+880-1316797638</h1>
                     </div>
-                    <h2 className='text-gray-500 text-sm md:block hidden'>Hello! My name is Israt and I enjoy creating things that live on the internet. My interest in web development started back in 2012 when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!</h2>
-                    <h2 className='text-gray-500 text-sm md:block hidden'>My interest in web development started back in 2012 when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog button. My Educational Qualifications are as follows,</h2>
+                    <h2 className='text-gray-500 text-sm md:block hidden'>Hello! My name is Israt Jahan Tuhin, a detail-oriented individual with an associate degree in computer science & engineering. I enjoy critical thinking, problem-solving & playful outcomes from programming. In year 2018, I first started my journey as a programmer with C language, then C++. Then, in year 2021, I chose my career path as a React Developer. It's fun to work with codes & ui.</h2>
+                    <h2 className='text-gray-500 text-sm md:block hidden'> Expertise in React.js, and problem-solving. Familiar with Node.js, Express.js, MongoDB, PHP, MYSQL. And Familiar with Python, C/C++. I am an adaptive & fast learner. Thus, I am comfortable working with any environment or new technologies. My Educational Qualifications are as follows</h2>
                     <div className='my-2.5 md:block hidden'>
                         <h1 className='text-lg'>- B.Sc in Computer Science & Engineering</h1>
                         <h1 className='text-gray-600 mx-3'> International Islamic University Chittagong, <span className='text-sm'>Sitakundo, Chattagram</span></h1>
@@ -29,8 +29,8 @@ const AboutMe = () => {
                     </div>
                     {/* ================== Mobile ================== */}
                     <div className='md:hidden w-[370px]'>
-                        <h2 className='text-gray-500 text-sm'>Hello! My name is Israt and I enjoy creating things that live on the internet. My interest in web development started back in 2012 when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!</h2>
-                        <h2 className='text-gray-500 text-sm'>My interest in web development started back in 2012 when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog button. My Educational Qualifications are as follows,</h2>
+                        <h2 className='text-gray-500 text-sm'>Hello! My name is Israt Jahan Tuhin, a detail-oriented individual with an associate degree in computer science & engineering. I enjoy critical thinking, problem-solving & playful outcomes from programming. In year 2018, I first started my journey as a programmer with C language, then C++. Then, in year 2021, I chose my career path as a React Developer. It's fun to work with codes & ui.</h2>
+                        <h2 className='text-gray-500 text-sm'> Expertise in React.js, and problem-solving. Familiar with Node.js, Express.js, MongoDB, PHP, MYSQL. And Familiar with Python, C/C++. I am an adaptive & fast learner. Thus, I am comfortable working with any environment or new technologies. My Educational Qualifications are as follows,</h2>
                         <div className='my-2.5'>
                             <h1 className='text-lg'>- B.Sc in Computer Science & Engineering</h1>
                             <h1 className='text-gray-600 mx-3'> International Islamic University Chittagong, <span className='text-sm'>Sitakundo, Chattagram</span></h1>
@@ -53,7 +53,7 @@ const AboutMe = () => {
                     <div className='border-0 z-10 rounded bg-gray-500 w-[12em] h-[12em] absolute top-4 left-14'>
                         <img src={portfolio} alt="" />
                     </div>
-                    <div className='border border-gray-500 rounded w-[12em] h-[12em] absolute top-6 left-16'>
+                    <div className='border border-gray-500 w-[12em] h-[13.80em] absolute top-6 left-16'>
 
                     </div>
                 </div>
