@@ -10,7 +10,7 @@ const Portfolio = () => {
     return (
         <div className='relative bg-gray-800 text-gray-500'>
             <IntroPart></IntroPart>
-            <PortfolioNavbar />
+            <PortfolioNavbar></PortfolioNavbar>
             <div className='' id='main-body'>
                 <AboutMe></AboutMe>
                 <MySkills></MySkills>
