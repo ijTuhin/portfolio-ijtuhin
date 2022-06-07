@@ -30,3 +30,7 @@ export const projectII3 = require('./image/projects/Project-II-3.png');
 export const projectIII1 = require('./image/projects/Project-III-1.png');
 export const projectIII2 = require('./image/projects/Project-III-2.png');
 export const projectIII3 = require('./image/projects/Project-III-3.png');
+export const codeforces = require('./image/problem/CF.png');
+export const hackerRank = require('./image/problem/hackerrank.png');
+export const uva = require('./image/problem/online-judge.png');
+export const uri = require('./image/problem/uri.webp');

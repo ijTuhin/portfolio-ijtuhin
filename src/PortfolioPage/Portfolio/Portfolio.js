@@ -4,8 +4,8 @@ import ContactMe from '../ContactMe/ContactMe';
 import IntroPart from '../IntroPart/IntroPart';
 import MySkills from '../MySkills/MySkills';
 import PortfolioNavbar from '../PorfolioNavBar/PorfolioNavBar';
+import ProblemSolving from '../ProblemSolving/ProblemSolving';
 import Projects from '../Projects/Projects';
-
 const Portfolio = () => {
     return (
         <div className='relative bg-gray-800 text-gray-500'>
@@ -15,6 +15,7 @@ const Portfolio = () => {
                 <AboutMe></AboutMe>
                 <MySkills></MySkills>
                 <Projects></Projects>
+                <ProblemSolving></ProblemSolving>
                 <ContactMe></ContactMe>
             </div>
 

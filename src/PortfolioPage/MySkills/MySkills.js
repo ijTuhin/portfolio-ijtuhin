@@ -29,10 +29,12 @@ const MySkills = () => {
                             data-aos-duration="900"
                             data-aos-easing="ease-in-out"
                             data-aos-mirror="true" className='mx-3 text-sm md:text-base'>
+                            <h3><FontAwesomeIcon className='md:w-2 w-1.5' icon={faDotCircle}></FontAwesomeIcon> React.js</h3>
                             <h3><FontAwesomeIcon className='md:w-2 w-1.5' icon={faDotCircle}></FontAwesomeIcon> HTML5</h3>
                             <h3><FontAwesomeIcon className='md:w-2 w-1.5' icon={faDotCircle}></FontAwesomeIcon> CSS3</h3>
-                            <h3><FontAwesomeIcon className='md:w-2 w-1.5' icon={faDotCircle}></FontAwesomeIcon> JavaScripts</h3>
-                            <h3><FontAwesomeIcon className='md:w-2 w-1.5' icon={faDotCircle}></FontAwesomeIcon> Reacj.js</h3>
+                            <h3><FontAwesomeIcon className='md:w-2 w-1.5' icon={faDotCircle}></FontAwesomeIcon> JavaScript</h3>
+                            <h3><FontAwesomeIcon className='md:w-2 w-1.5' icon={faDotCircle}></FontAwesomeIcon> ES6</h3>
+                            <h3><FontAwesomeIcon className='md:w-2 w-1.5' icon={faDotCircle}></FontAwesomeIcon> REST API</h3>
                         </div>
                     </div>
                 </div>
