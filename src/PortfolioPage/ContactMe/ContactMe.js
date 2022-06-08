@@ -9,7 +9,7 @@ const ContactMe = () => {
     };
 
     return (
-        <div className='h-screen flex flex-col justify-center items-center'>
+        <div className='mt-10 h-screen flex flex-col justify-center items-center'>
             <h1 className='text-4xl font-medium mb-1.5'>Get in touch!</h1>
             <p>Got a question or proposal, or just want
                 to say hello? Go ahead.</p>

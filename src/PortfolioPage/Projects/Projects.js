@@ -1,7 +1,7 @@
 import { faLink } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import { projectI1, projectII1, projectIII1 } from '../../index';
+import { projectI1, projectII1, projectIII1, projectIV1 } from '../../index';
 const Projects = () => {
     return (
         <div className='flex flex-col justify-center items-center'>
@@ -13,7 +13,7 @@ const Projects = () => {
             <div className='grid md:grid-cols-3 grid-cols-1 gap-x-5 gap-y-3 cards mt-2'>
                 <div className="w-[350px] h-52 text-center flex flex-col items-center justify-center relative z-20">
                     <div className='p-2 w-[350px] h-80 relative card-head'>
-                        <img className='w-[350px] h-52' src={projectIII1} alt="" />
+                        <img className='w-[350px] h-52' src={projectIV1} alt="" />
                         <div className="p-2 absolute inset-0 top-2 left-2 z-10 bg-slate-600/50 flex flex-col items-center justify-center opacity-0 hover:opacity-100 bg-opacity-90 duration-300 w-[95%] h-[92.5%]">
                             <p className='text-white font-semibold text-2xl'></p>
                             <p className='text-white'><i>MERN-STACK</i></p>

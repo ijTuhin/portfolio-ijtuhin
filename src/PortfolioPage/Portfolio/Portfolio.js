@@ -13,7 +13,7 @@ const Portfolio = () => {
             <MainBodyMenu></MainBodyMenu>
             <IntroPart></IntroPart>
             <PortfolioNavbar></PortfolioNavbar>
-            <div className='bg-slate-900 relative z-40' id='main-body'>
+            <div className='bg-[#101825] relative z-40' id='main-body'>
                 <div id='profile'>
                     <AboutMe></AboutMe>
                 </div>
@@ -28,7 +28,6 @@ const Portfolio = () => {
                     <ContactMe></ContactMe>
                 </div>
             </div>
-
         </div>
     );
 };
