@@ -8,10 +8,10 @@ import ProblemSolving from '../ProblemSolving/ProblemSolving';
 import Projects from '../Projects/Projects';
 const Portfolio = () => {
     return (
-        <div className='relative bg-gray-800 text-gray-500'>
+        <div className='absolute bg-gray-900 text-gray-500'>
             <IntroPart></IntroPart>
             <PortfolioNavbar></PortfolioNavbar>
-            <div className='' id='main-body'>
+            <div className='bg-slate-900 relative z-50' id='main-body'>
                 <AboutMe></AboutMe>
                 <MySkills></MySkills>
                 <Projects></Projects>
