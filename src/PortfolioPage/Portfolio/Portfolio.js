@@ -10,15 +10,23 @@ import Projects from '../Projects/Projects';
 const Portfolio = () => {
     return (
         <div className='absolute bg-gray-900 text-gray-500'>
+            <MainBodyMenu></MainBodyMenu>
             <IntroPart></IntroPart>
             <PortfolioNavbar></PortfolioNavbar>
-            <div className='bg-slate-900 relative z-50' id='main-body'>
-                <MainBodyMenu></MainBodyMenu>
-                <AboutMe></AboutMe>
-                <MySkills></MySkills>
-                <Projects></Projects>
-                <ProblemSolving></ProblemSolving>
-                <ContactMe></ContactMe>
+            <div className='bg-slate-900 relative z-40' id='main-body'>
+                <div id='profile'>
+                    <AboutMe></AboutMe>
+                </div>
+                <div id='skill' className='mt-14'>
+                    <MySkills></MySkills>
+                    <ProblemSolving></ProblemSolving>
+                </div>
+                <div id='project'>
+                    <Projects></Projects>
+                </div>
+                <div id='contact'>
+                    <ContactMe></ContactMe>
+                </div>
             </div>
 
         </div>
