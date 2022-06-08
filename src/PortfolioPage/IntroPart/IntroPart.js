@@ -1,7 +1,6 @@
 import React from 'react';
 import './IntroPart.css';
 import { downArrow } from '../../index';
-import { Link } from 'react-router-dom';
 const IntroPart = () => {
     return (
         <div className='bubble text-white w-full flex flex-col justify-center h-screen sticky-top top-0 z-0' id='top'>

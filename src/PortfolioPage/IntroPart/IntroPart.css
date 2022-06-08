@@ -10,7 +10,7 @@
 .text-III {
     white-space: nowrap;
     overflow: hidden;
-    border-right: 2px solid rgb(31 41 55);
+    border-right: 2px solid rgb(17 24 39);
 }
 
 .text-I {
@@ -64,7 +64,7 @@
 
 @keyframes blink__1 {
     from {
-        border-right-color: rgb(31 41 55);
+        border-right-color: rgb(17 24 39);
     }
 
     to {
@@ -74,7 +74,7 @@
 
 @keyframes blink__2 {
     from {
-        border-right-color: rgb(31 41 55);
+        border-right-color: rgb(17 24 39);
     }
 
     to {
@@ -84,7 +84,7 @@
 
 @keyframes blink__3 {
     from {
-        border-right-color: rgb(31 41 55);
+        border-right-color: rgb(17 24 39);
     }
 
     to {
