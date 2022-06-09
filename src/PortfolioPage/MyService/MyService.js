@@ -1,4 +1,4 @@
-import { faCameraRetro, faCode, faCodeCommit, faCodeCompare, faTv, faUserFriends } from '@fortawesome/free-solid-svg-icons';
+import { faCameraRetro, faCode, faTv, faUserFriends } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 

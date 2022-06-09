@@ -23,10 +23,10 @@ const Portfolio = () => {
                 </div>
                 <div id='skill' className='mt-14'>
                     <MySkills></MySkills>
-                    <ProblemSolving></ProblemSolving>
                 </div>
                 <div id='project'>
                     <Projects></Projects>
+                    <ProblemSolving></ProblemSolving>
                 </div>
                 <div id='contact'>
                     <ContactMe></ContactMe>
@@ -37,4 +37,3 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
-// sticky-top top-0 z-0
