@@ -3,6 +3,7 @@ import AboutMe from '../AboutMe/AboutMe';
 import ContactMe from '../ContactMe/ContactMe';
 import IntroPart from '../IntroPart/IntroPart';
 import MainBodyMenu from '../MainBodyMenu/MainBodyMenu';
+import MyService from '../MyService/MyService';
 import MySkills from '../MySkills/MySkills';
 import PortfolioNavbar from '../PorfolioNavBar/PorfolioNavBar';
 import ProblemSolving from '../ProblemSolving/ProblemSolving';
@@ -16,6 +17,9 @@ const Portfolio = () => {
             <div className='bg-[#101825] relative z-40' id='main-body'>
                 <div id='profile'>
                     <AboutMe></AboutMe>
+                </div>
+                <div id='service'>
+                    <MyService></MyService>
                 </div>
                 <div id='skill' className='mt-14'>
                     <MySkills></MySkills>
