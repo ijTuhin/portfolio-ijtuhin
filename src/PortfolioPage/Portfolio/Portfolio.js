@@ -33,3 +33,4 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
+// sticky-top top-0 z-0
