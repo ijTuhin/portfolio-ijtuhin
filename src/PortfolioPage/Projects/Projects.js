@@ -25,7 +25,7 @@ const Projects = () => {
         setIsFlippedV(!isFlippedV);
     }
     return (
-        <div className='flex flex-col justify-center items-center'>
+        <div className='w-screen flex flex-col justify-center items-center'>
             <div className='flex justify-center mt-28 mb-10'>
                 <span className='border-b-2 border-gray-600 w-20 mt-2.5 mx-2 h-2'></span>
                 <h1 className='text-gray-500 text-2xl font-medium font-serif'>Recent Projects</h1>

@@ -9,7 +9,7 @@ const ContactMe = () => {
     };
 
     return (
-        <div className='mt-10 h-screen flex flex-col justify-center items-center'>
+        <div className='mt-10 w-screen h-screen flex flex-col justify-center items-center'>
             <form onSubmit={handleSubmit(onSubmit)} className='ml-10'>
                 <div className='md:block hidden'>
                     <div className='text-center'>

@@ -4,9 +4,9 @@ import React from 'react';
 
 const MyService = () => {
     return (
-        <div className='flex flex-col justify-center items-center mt-10 mb-96'>
+        <div className='flex flex-col justify-center items-center w-screen mt-10 mb-48 md:mb-96'>
             <h1 className='text-gray-500 text-4xl font-medium mb-10'>My Services</h1>
-            <div className='grid grid-cols-4 gap-x-6'>
+            <div className='grid grid-cols-1 gap-y-6 md:grid-cols-4 md:gap-x-6'>
                 <div className='flex flex-col justify-center items-start w-[275px] h-72 pl-10 pr-3 shadow-2xl rounded-md bg-[#1a212b]/50 hover:shadow-md hover:text-amber-400/70'>
                     <FontAwesomeIcon className='text-4xl' icon={faCode}></FontAwesomeIcon>
                     <h2 className='text-[1.5rem] font-semibold'>Web Development</h2>

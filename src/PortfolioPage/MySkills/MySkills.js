@@ -7,7 +7,7 @@ AOS.init();
 
 const MySkills = () => {
     return (
-        <div className='w-full h-[100%] mt-20'>
+        <div className='w-screen h-[100%] mt-20'>
             <div className='flex justify-center mb-20'>
                 <span className='border-b-2 border-gray-600 md:w-20 w-14 mt-2.5 mx-2 h-2'></span>
                 <h1 className='text-gray-500 md:text-2xl text-2xl font-medium font-serif'>Skills & Technologies</h1>

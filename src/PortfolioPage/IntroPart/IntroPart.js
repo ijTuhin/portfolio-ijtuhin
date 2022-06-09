@@ -3,7 +3,7 @@ import './IntroPart.css';
 import { downArrow } from '../../index';
 const IntroPart = () => {
     return (
-        <div className='bubble text-white w-full flex flex-col justify-center h-screen sticky-top top-0 z-0' id='top'>
+        <div className='bubble text-white w-screen flex flex-col justify-center h-screen sticky-top top-0 z-0' id='top'>
             <div className='writing mx-auto'>
                 <h1 className='font-serif font-medium md:text-xl mb-0.5 text-I'>
                     Hello, I am
