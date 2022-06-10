@@ -11,7 +11,7 @@ import Projects from '../Projects/Projects';
 
 const Portfolio = () => {
     return (
-        <div className='absolute bg-gradient-to-r from-[#232121] to-gray-900 text-gray-500'>
+        <div className='absolute bg-gradient-to-r from-slate-900 to-gray-900 text-gray-500'>
             <MainBodyMenu></MainBodyMenu>
             <IntroPart></IntroPart>
             <PortfolioNavbar></PortfolioNavbar>
