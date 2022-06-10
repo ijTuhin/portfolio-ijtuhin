@@ -1,29 +1,8 @@
 import React, { useState } from 'react';
-import ReactCardFlip from 'react-card-flip';
+import { Link } from 'react-router-dom';
 import { projectI, projectII, projectIII, projectIV, projectV } from '../../index';
 import './Projects.css';
 const Projects = () => {
-    const [isFlippedI, setIsFlippedI] = useState(false);
-    const [isFlippedII, setIsFlippedII] = useState(false);
-    const [isFlippedIII, setIsFlippedIII] = useState(false);
-    const [isFlippedIV, setIsFlippedIV] = useState(false);
-    const [isFlippedV, setIsFlippedV] = useState(false);
-
-    const handleFlipI = () => {
-        setIsFlippedI(!isFlippedI);
-    }
-    const handleFlipII = () => {
-        setIsFlippedII(!isFlippedII);
-    }
-    const handleFlipIII = () => {
-        setIsFlippedIII(!isFlippedIII);
-    }
-    const handleFlipIV = () => {
-        setIsFlippedIV(!isFlippedIV);
-    }
-    const handleFlipV = () => {
-        setIsFlippedV(!isFlippedV);
-    }
     return (
         <div className='w-screen flex flex-col justify-center items-center'>
             <div className='flex justify-center mt-28 mb-10'>
@@ -44,8 +23,8 @@ const Projects = () => {
                             <div className='flex flex-col justify-center items-center w-full h-full shadow-2xl rounded-md bg-[#1a212b]/50 hover:shadow-md text-white'>
                                 <p className='text-white font-medium text-xl'>Manufacturing Website</p>
                                 <p className='text-white text-sm'><i>MERN-STACK</i></p>
-                                <p className='text-white text-xs font-light'>HTML, CSS, React.js, Express.js, MongoDb, Node.js, TailwindCSS</p>
-                                <button onClick={handleFlipI} className='text-white rounded-sm bg-amber-400 hover:bg-amber-500 py-1 px-5 mt-4 hover:text-white'>View Details</button>
+                                <p className='text-white text-xs font-light'>HTML, CSS, React.js, Express.js, MongoDb, Node.js, TailwindCSS, DaisyUI, Firebase</p>
+                                <Link to='/project-I'  className='text-white rounded-sm bg-amber-400 hover:bg-amber-500 py-1 px-5 mt-4 hover:text-white'>View Details</Link>
                             </div>
                         </div>
                     </div>
@@ -61,8 +40,8 @@ const Projects = () => {
                             <div className='flex flex-col justify-center items-center w-full h-full shadow-2xl rounded-md bg-[#1a212b]/50 hover:shadow-md text-white'>
                                 <p className='text-white font-medium text-xl'>HeroKu Motor Bike</p>
                                 <p className='text-white text-sm'><i>MERN-STACK</i></p>
-                                <p className='text-white text-xs font-light'>HTML, CSS, React.js, Express.js, MongoDb, Node.js, TailwindCSS</p>
-                                <button onClick={handleFlipII} className='text-white rounded-sm bg-amber-400 hover:bg-amber-500 py-1 px-5 mt-4 hover:text-white'>View Details</button>
+                                <p className='text-white text-xs font-light'>HTML, CSS, React.js, Express.js, MongoDb, Node.js, TailwindCSS, Firebase</p>
+                                <Link to='/project-II'  className='text-white rounded-sm bg-amber-400 hover:bg-amber-500 py-1 px-5 mt-4 hover:text-white'>View Details</Link>
                             </div>
                         </div>
                     </div>
@@ -79,7 +58,7 @@ const Projects = () => {
                                 <p className='text-white font-medium text-xl'>RouteTo Go-Wonder</p>
                                 <p className='text-white text-sm'><i>FULL-STACK</i></p>
                                 <p className='text-white text-xs font-light'>HTML, CSS, JavaScript, PHP, MySQL, TailwindCSS</p>
-                                <button onClick={handleFlipIII} className='text-white rounded-sm bg-amber-400 hover:bg-amber-500 py-1 px-5 mt-4 hover:text-white'>View Details</button>
+                                <Link to='/project-III' className='text-white rounded-sm bg-amber-400 hover:bg-amber-500 py-1 px-5 mt-4 hover:text-white'>View Details</Link>
                             </div>
                         </div>
                     </div>
@@ -96,7 +75,7 @@ const Projects = () => {
                                 <p className='text-white font-medium text-xl'>Foodie Food</p>
                                 <p className='text-white text-sm'><i>Catering Service</i></p>
                                 <p className='text-white text-xs font-light'>HTML, CSS, React.js, TailwindCSS, Firebase</p>
-                                <button onClick={handleFlipIV} className='text-white rounded-sm bg-amber-400 hover:bg-amber-500 py-1 px-5 mt-4 hover:text-white'>View Details</button>
+                                <Link to='/project-IV'  className='text-white rounded-sm bg-amber-400 hover:bg-amber-500 py-1 px-5 mt-4 hover:text-white'>View Details</Link>
                             </div>
                         </div>
                     </div>
@@ -112,7 +91,7 @@ const Projects = () => {
                             <div className='flex flex-col justify-center items-center w-full h-full shadow-2xl rounded-md bg-[#1a212b]/50 hover:shadow-md text-white'>
                                 <p className='text-white font-medium text-xl'>De Ornam&</p>
                                 <p className='text-white text-xs font-light'>HTML, CSS, React.js, TailwindCSS</p>
-                                <button onClick={handleFlipV} className='text-white rounded-sm bg-amber-400 hover:bg-amber-500 py-1 px-5 mt-4 hover:text-white'>View Details</button>
+                                <Link to='/project-V'  className='text-white rounded-sm bg-amber-400 hover:bg-amber-500 py-1 px-5 mt-4 hover:text-white'>View Details</Link>
                             </div>
                         </div>
                     </div>

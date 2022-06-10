@@ -3,3 +3,13 @@
 .project{
     font-family: 'Source Serif Pro', serif;
 }
+
+.detail:hover .detail-header>h1{
+    color: rgb(8 145 178);
+}
+
+.detail:hover .details-box, .detail:hover .detail-header>span{
+    border-color: rgb(8 145 178);
+}
+
+
