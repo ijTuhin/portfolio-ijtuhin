@@ -13,6 +13,7 @@ const MainBodyMenu = () => {
                 <ul tabindex="0" class="dropdown-content menu py-2 mt-10 w-32">
                     <li><a className='border border-gray-600 rounded-tl-lg p-1.5 mx-0.5 text-gray-500 hover:bg-amber-500 hover:text-white' href="#profile">Profile</a></li>
                     <li><a className='border border-gray-600 p-1.5 mx-0.5 text-gray-500 hover:bg-amber-500 hover:text-white' href="#skill">My Skills</a></li>
+                    <li><a className='border border-gray-600 p-1.5 mx-0.5 text-gray-500 hover:bg-amber-500 hover:text-white' href="#service">My Services</a></li>
                     <li><a className='border border-gray-600 p-1.5 mx-0.5 text-gray-500 hover:bg-amber-500 hover:text-white' href="#project">Projects</a></li>
                     <li><a className='border border-gray-600 rounded-lg rounded-t-none p-1.5 mx-0.5 text-gray-500 hover:bg-amber-500 hover:text-white' href="#contact">Contact Me</a></li>
                 </ul>

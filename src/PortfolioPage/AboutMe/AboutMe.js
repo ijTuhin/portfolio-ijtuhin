@@ -3,7 +3,7 @@ import { portfolio } from '../../index';
 const AboutMe = () => {
     return (
         <div className='md:mb-0 pt-28 mb-[70%]'>
-            <div className='w-full flex md:flex-row md:justify-center flex-col-reverse h-screen'>
+            <div className='w-full flex md:flex-row md:justify-center flex-col-reverse'>
                 <div className='w-[50%] h-[50%] md:ml-16 ml-10 p-4 md:mt-14 relative flex flex-col items-start justify-start'>
                     <div className='md:w-full w-[300px] my-2.5'>
                         <h1 className='text-gray-500 text-2xl font-medium'>About me</h1>
