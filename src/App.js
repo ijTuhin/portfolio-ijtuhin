@@ -1,11 +1,13 @@
 import './App.css';
 import Portfolio from './PortfolioPage/Portfolio/Portfolio';
-import fa from '../src/image/svg/plan-svgrepo-com.svg';
+import fa from '../src/image/vector/hello-transparent-2.gif';
 function App() {
   return (
-    <div className='bg-white'>
+    <div>
       <Portfolio></Portfolio>
-      <img src={fa} className='bg-pink-300' alt="" />
+      <div className='bg-yellow-200'>
+        <img src={fa} alt="" />
+      </div>
     </div>
   );
 }

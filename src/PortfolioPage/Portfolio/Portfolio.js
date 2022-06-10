@@ -8,6 +8,7 @@ import MySkills from '../MySkills/MySkills';
 import PortfolioNavbar from '../PorfolioNavBar/PorfolioNavBar';
 import ProblemSolving from '../ProblemSolving/ProblemSolving';
 import Projects from '../Projects/Projects';
+import fa from '../../image/vector/cjrhaw9w300p3gvg0dmeg50vn-invention-email.one-half.png';
 const Portfolio = () => {
     return (
         <div className='absolute bg-gray-900 text-gray-500'>
@@ -30,7 +31,12 @@ const Portfolio = () => {
                 </div>
                 <div id='contact'>
                     <ContactMe></ContactMe>
+                    {/* <img className='w-96' src={fa} alt="" />
+                    <div className='bg-yellow-200'>
+
+                    </div> */}
                 </div>
+
             </div>
         </div>
     );
