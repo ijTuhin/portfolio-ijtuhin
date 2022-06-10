@@ -16,7 +16,7 @@ const IntroPart = () => {
                 </h1>
             </div>
             <br /><br />
-            <a href="https://drive.google.com/file/d/1MurmfSe80GRxa3XaTRg3jK_SVgFUNav2" target='_blank' rel='noreferrer' className='hover:text-amber-300 flex mx-auto items-center' download><img src={downArrow} className="right-arrow md:w-6 w-6 mt-[2px] mx-3" alt="" /> DOWNLOAD RESUME</a>
+            <a href="Resume-Israt_Jahan_Tuhin.pdf" target='_blank' rel='noreferrer' className='hover:text-amber-300 flex mx-auto items-center' download><img src={downArrow} className="right-arrow md:w-6 w-6 mt-[2px] mx-3" alt="" /> DOWNLOAD RESUME</a>
             <div className='bubblediv'><span class="dot"></span></div>
             <div className='bubblediv'><span class="dot"></span></div>
             <div className='bubblediv'><span class="dot"></span></div>
