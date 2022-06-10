@@ -1,0 +1,20 @@
+.tool-tip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tool-tip .tooltiptext {
+    visibility: hidden;
+    text-align: center;
+    padding: 5px 0;
+    
+    /* Position the tool-tip */
+    position: absolute;
+    z-index: 1;
+    top: -1%;
+    right: 130%;
+  }
+  
+  .tool-tip:hover .tooltiptext {
+    visibility: visible;
+  }
