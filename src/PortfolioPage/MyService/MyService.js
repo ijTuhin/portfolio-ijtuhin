@@ -19,11 +19,11 @@ const MyService = () => {
                                 <div class="flip-card-front">
                                     <div className='flex flex-col justify-center items-start w-[275px] h-72 pl-10 pr-3 shadow-2xl rounded-md bg-[#1a212b]/50 hover:shadow-md'>
                                         <FontAwesomeIcon className='text-4xl' icon={faCode}></FontAwesomeIcon>
-                                        <h2 className='text-[1.5rem] font-semibold'>Web Development</h2>
+                                        <h2 className='text-[1.5rem] font-semibold text-left'>Web Development</h2>
                                     </div>
                                 </div>
                                 <div class="flip-card-back">
-                                    <div className='flex flex-col justify-center items-start w-[275px] h-72 pl-10 pr-3 shadow-2xl rounded-md bg-[#1a212b]/50 hover:shadow-md text-white'>
+                                    <div className='flex flex-col justify-center items-start w-[275px] h-72 px-2 shadow-2xl rounded-md bg-[#1a212b]/50 hover:shadow-md text-white'>
                                         <p>Lorem, ipsum dolor sit amet libero minima ex commodi! consectetur adipisicing elit. Odio eligendi itaque labore, expedita vel nam accusamus, consequuntur optio autem reiciendis provident soluta rem consectetur, ab repellendus </p>
                                     </div>
                                 </div>
@@ -34,11 +34,11 @@ const MyService = () => {
                                 <div class="flip-card-front">
                                     <div className='flex flex-col justify-center items-start w-[275px] h-72 pl-10 pr-3 shadow-2xl rounded-md bg-[#1a212b]/50 hover:shadow-md hover:text-amber-400/70'>
                                         <FontAwesomeIcon className='text-4xl' icon={faTv}></FontAwesomeIcon>
-                                        <h2 className='text-[1.5rem] font-semibold'>UI/UX Design</h2>
+                                        <h2 className='text-[1.5rem] font-semibold text-left'>UI/UX Design</h2>
                                     </div>
                                 </div>
                                 <div class="flip-card-back">
-                                    <div className='flex flex-col justify-center items-start w-[275px] h-72 pl-10 pr-3 shadow-2xl rounded-md bg-[#1a212b]/50 hover:shadow-md text-white'>
+                                    <div className='flex flex-col justify-center items-start w-[275px] h-72 px-2 shadow-2xl rounded-md bg-[#1a212b]/50 hover:shadow-md text-white'>
                                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio eligendi itaque labore, expedita vel nam accusamus, consequuntur optio autem reiciendis provident soluta rem consectetur, ab repellendus libero minima ex commodi!</p>
                                     </div>
                                 </div>
@@ -49,11 +49,11 @@ const MyService = () => {
                                 <div class="flip-card-front">
                                     <div className='flex flex-col justify-center items-start w-[275px] h-72 pl-10 pr-3 shadow-2xl rounded-md bg-[#1a212b]/50 hover:shadow-md hover:text-amber-400/70'>
                                         <FontAwesomeIcon className='text-4xl' icon={faUserFriends}></FontAwesomeIcon>
-                                        <h2 className='text-[1.5rem] font-semibold'>Project Management</h2>
+                                        <h2 className='text-[1.5rem] font-semibold text-left'>Project Management</h2>
                                     </div>
                                 </div>
                                 <div class="flip-card-back">
-                                    <div className='flex flex-col justify-center items-start w-[275px] h-72 pl-10 pr-3 shadow-2xl rounded-md bg-[#1a212b]/50 hover:shadow-md text-white'>
+                                    <div className='flex flex-col justify-center items-start w-[275px] h-72 px-2 shadow-2xl rounded-md bg-[#1a212b]/50 hover:shadow-md text-white'>
                                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio eligendi itaque labore, expedita vel nam accusamus, consequuntur optio autem reiciendis provident soluta rem consectetur, ab repellendus libero minima ex commodi!</p>
                                     </div>
                                 </div>
@@ -64,11 +64,11 @@ const MyService = () => {
                                 <div class="flip-card-front">
                                     <div className='flex flex-col justify-center items-start w-[275px] h-72 pl-10 pr-3 shadow-2xl rounded-md bg-[#1a212b]/50 hover:shadow-md hover:text-amber-400/70'>
                                         <FontAwesomeIcon className='text-4xl' icon={faCameraRetro}></FontAwesomeIcon>
-                                        <h2 className='text-[1.5rem] font-semibold'>Marketing & Strategy</h2>
+                                        <h2 className='text-[1.5rem] font-semibold text-left'>Marketing & Strategy</h2>
                                     </div>
                                 </div>
                                 <div class="flip-card-back">
-                                    <div className='flex flex-col justify-center items-start w-[275px] h-72 pl-10 pr-3 shadow-2xl rounded-md bg-[#1a212b]/50 hover:shadow-md text-white'>
+                                    <div className='flex flex-col justify-center items-start w-[275px] h-72 px-2 shadow-2xl rounded-md bg-[#1a212b]/50 hover:shadow-md text-white'>
                                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio eligendi itaque labore, expedita vel nam accusamus, consequuntur optio autem reiciendis provident soluta rem consectetur, ab repellendus libero minima ex commodi!</p>
                                     </div>
                                 </div>
@@ -88,11 +88,11 @@ const MyService = () => {
                                 <div class="flip-card-front">
                                     <div className='flex flex-col justify-center items-start w-[275px] h-72 pl-10 pr-3 shadow-2xl rounded-md bg-[#1a212b]/50 hover:shadow-md'>
                                         <FontAwesomeIcon className='text-4xl' icon={faCode}></FontAwesomeIcon>
-                                        <h2 className='text-[1.5rem] font-semibold'>Web Development</h2>
+                                        <h2 className='text-[1.5rem] font-semibold text-left'>Web Development</h2>
                                     </div>
                                 </div>
                                 <div class="flip-card-back">
-                                    <div className='flex flex-col justify-center items-start w-[275px] h-72 pl-10 pr-3 shadow-2xl rounded-md bg-[#1a212b]/50 hover:shadow-md text-white'>
+                                    <div className='flex flex-col justify-center items-start w-[275px] h-72 px-2 shadow-2xl rounded-md bg-[#1a212b]/50 hover:shadow-md text-white'>
                                         <p>Lorem, ipsum dolor sit amet libero minima ex commodi! consectetur adipisicing elit. Odio eligendi itaque labore, expedita vel nam accusamus, consequuntur optio autem reiciendis provident soluta rem consectetur, ab repellendus </p>
                                     </div>
                                 </div>
@@ -105,11 +105,11 @@ const MyService = () => {
                                 <div class="flip-card-front">
                                     <div className='flex flex-col justify-center items-start w-[275px] h-72 pl-10 pr-3 shadow-2xl rounded-md bg-[#1a212b]/50 hover:shadow-md hover:text-amber-400/70'>
                                         <FontAwesomeIcon className='text-4xl' icon={faTv}></FontAwesomeIcon>
-                                        <h2 className='text-[1.5rem] font-semibold'>UI/UX Design</h2>
+                                        <h2 className='text-[1.5rem] font-semibold text-left'>UI/UX Design</h2>
                                     </div>
                                 </div>
                                 <div class="flip-card-back">
-                                    <div className='flex flex-col justify-center items-start w-[275px] h-72 pl-10 pr-3 shadow-2xl rounded-md bg-[#1a212b]/50 hover:shadow-md text-white'>
+                                    <div className='flex flex-col justify-center items-start w-[275px] h-72 px-2 shadow-2xl rounded-md bg-[#1a212b]/50 hover:shadow-md text-white'>
                                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio eligendi itaque labore, expedita vel nam accusamus, consequuntur optio autem reiciendis provident soluta rem consectetur, ab repellendus libero minima ex commodi!</p>
                                     </div>
                                 </div>
@@ -122,11 +122,11 @@ const MyService = () => {
                                 <div class="flip-card-front">
                                     <div className='flex flex-col justify-center items-start w-[275px] h-72 pl-10 pr-3 shadow-2xl rounded-md bg-[#1a212b]/50 hover:shadow-md hover:text-amber-400/70'>
                                         <FontAwesomeIcon className='text-4xl' icon={faUserFriends}></FontAwesomeIcon>
-                                        <h2 className='text-[1.5rem] font-semibold'>Project Management</h2>
+                                        <h2 className='text-[1.5rem] font-semibold text-left'>Project Management</h2>
                                     </div>
                                 </div>
                                 <div class="flip-card-back">
-                                    <div className='flex flex-col justify-center items-start w-[275px] h-72 pl-10 pr-3 shadow-2xl rounded-md bg-[#1a212b]/50 hover:shadow-md text-white'>
+                                    <div className='flex flex-col justify-center items-start w-[275px] h-72 px-2 shadow-2xl rounded-md bg-[#1a212b]/50 hover:shadow-md text-white'>
                                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio eligendi itaque labore, expedita vel nam accusamus, consequuntur optio autem reiciendis provident soluta rem consectetur, ab repellendus libero minima ex commodi!</p>
                                     </div>
                                 </div>
@@ -139,11 +139,11 @@ const MyService = () => {
                                 <div class="flip-card-front">
                                     <div className='flex flex-col justify-center items-start w-[275px] h-72 pl-10 pr-3 shadow-2xl rounded-md bg-[#1a212b]/50 hover:shadow-md hover:text-amber-400/70'>
                                         <FontAwesomeIcon className='text-4xl' icon={faCameraRetro}></FontAwesomeIcon>
-                                        <h2 className='text-[1.5rem] font-semibold'>Marketing & Strategy</h2>
+                                        <h2 className='text-[1.5rem] font-semibold text-left'>Marketing & Strategy</h2>
                                     </div>
                                 </div>
                                 <div class="flip-card-back">
-                                    <div className='flex flex-col justify-center items-start w-[275px] h-72 pl-10 pr-3 shadow-2xl rounded-md bg-[#1a212b]/50 hover:shadow-md text-white'>
+                                    <div className='flex flex-col justify-center items-start w-[275px] h-72 px-2 shadow-2xl rounded-md bg-[#1a212b]/50 hover:shadow-md text-white'>
                                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio eligendi itaque labore, expedita vel nam accusamus, consequuntur optio autem reiciendis provident soluta rem consectetur, ab repellendus libero minima ex commodi!</p>
                                     </div>
                                 </div>
