@@ -17,10 +17,10 @@ const MySkills = () => {
                 data-aos-delay="50"
                 data-aos-duration="1000"
                 data-aos-easing="ease-in-out-cubic"
-                data-aos-mirror="true" className='flex md:justify-start md:ml-[13%] ml-[25%] mb-[10%]'>
+                data-aos-mirror="true" className='flex justify-start md:ml-[16%] ml-[25%] mb-[10%]'>
                 <div class="relative md:mb-72 mb-[300px]">
-                    <div className='md:w-72 w-56 border border-gray-400 text-gray-300 md:h-[350px] h-[280px] absolute top-2 left-2 z-0'></div>
-                    <div class="rounded shadow-lg md:w-72 w-56 p-3 border border-gray-400 text-gray-300 md:h-[350px] h-[280px] bg-[#101825] absolute z-10">
+                    <div className='md:w-72 w-56 border border-gray-400 hover:border-sky-600 text-gray-300 md:h-[350px] h-[280px] absolute top-3 left-3 z-0'></div>
+                    <div class="rounded shadow-lg md:w-72 w-56 p-3 border-0 border-gray-400 text-gray-300 md:h-[350px] h-[280px] bg-[#1a212b] hover:bg-[#242d3a] absolute z-10">
                         <div className='md:border-b-4 border-b-2 border-gray-300 py-2 mx-3 my-2'>
                             <h1 className='text-base md:text-xl'><FontAwesomeIcon icon={faCode}></FontAwesomeIcon> FRONT-END</h1>
                         </div>
@@ -43,10 +43,10 @@ const MySkills = () => {
                 data-aos-delay="50"
                 data-aos-duration="1000"
                 data-aos-easing="ease-in-out-cubic"
-                data-aos-mirror="true" className='flex justify-end md:mr-[30%] mr-[75%] mb-[10%]'>
+                data-aos-mirror="true" className='flex justify-end md:mr-[35%] mr-[75%] mb-[10%]'>
                 <div class="relative md:mb-72 mb-[300px]">
-                    <div className='md:w-72 w-56 border border-gray-400 text-gray-300 md:h-[350px] h-[280px] absolute top-2 left-2 z-0'></div>
-                    <div class="rounded shadow-lg md:w-72 w-56 p-3 border border-gray-400 text-gray-300 md:h-[350px] h-[280px] bg-[#101825] absolute z-10">
+                    <div className='md:w-72 w-56 border border-gray-400 hover:border-sky-600 text-gray-300 md:h-[350px] h-[280px] absolute top-3 left-3 z-0'></div>
+                    <div class="rounded shadow-lg md:w-72 w-56 p-3 border-0 border-gray-400 text-gray-300 md:h-[350px] h-[280px] bg-[#1a212b] hover:bg-[#242d3a] absolute z-10">
                         <div className='md:border-b-4 border-b-2 border-gray-300 py-2 mx-3 my-2'>
                             <h1 className='md:text-xl text-base'><FontAwesomeIcon icon={faCode}></FontAwesomeIcon> BACK-END</h1>
                         </div>
@@ -68,10 +68,10 @@ const MySkills = () => {
                 data-aos-delay="40"
                 data-aos-duration="1000"
                 data-aos-easing="ease-in-out-cubic"
-                data-aos-mirror="true" className='flex justify-start md:ml-[13%] ml-[25%] mb-[10%]'>
+                data-aos-mirror="true" className='flex justify-start md:ml-[16%] ml-[25%] mb-[10%]'>
                 <div class="relative mb-72">
-                    <div className='md:w-72 w-56 border border-gray-400 text-gray-300 md:h-[350px] h-[280px] absolute top-2 left-2 z-0'></div>
-                    <div class="rounded shadow-lg md:w-72 w-56 p-3 border border-gray-400 text-gray-300 md:h-[350px] h-[280px] bg-[#101825] absolute z-10">
+                    <div className='md:w-72 w-56 border border-gray-400 hover:border-sky-600 text-gray-300 md:h-[350px] h-[280px] absolute top-3 left-3 z-0'></div>
+                    <div class="rounded shadow-lg md:w-72 w-56 p-3 border-0 border-gray-400 text-gray-300 md:h-[350px] h-[280px] bg-[#1a212b] hover:bg-[#242d3a] absolute z-10">
                         <div className='border-b-2 md:border-b-4 border-gray-300 py-2 mx-3 my-2'>
                             <h1 className='text-base md:text-xl'><FontAwesomeIcon icon={faTabletScreenButton}></FontAwesomeIcon> Ui Design</h1>
                         </div>

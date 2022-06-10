@@ -9,13 +9,14 @@ import PortfolioNavbar from '../PorfolioNavBar/PorfolioNavBar';
 import ProblemSolving from '../ProblemSolving/ProblemSolving';
 import Projects from '../Projects/Projects';
 import fa from '../../image/vector/cjrhaw9w300p3gvg0dmeg50vn-invention-email.one-half.png';
+
 const Portfolio = () => {
     return (
         <div className='absolute bg-gray-900 text-gray-500'>
             <MainBodyMenu></MainBodyMenu>
             <IntroPart></IntroPart>
             <PortfolioNavbar></PortfolioNavbar>
-            <div className='bg-[#101825] relative z-40' id='main-body'>
+            <div className='bg-[#101825] relative z-30' id='main-body'>
                 <div id='profile'>
                     <AboutMe></AboutMe>
                 </div>
@@ -36,7 +37,6 @@ const Portfolio = () => {
 
                     </div> */}
                 </div>
-
             </div>
         </div>
     );

@@ -5,7 +5,7 @@ import './MainBodyMenu.css';
 
 const MainBodyMenu = () => {
     return (
-        <div className='flex flex-col justify-center items-end w-screen fixed z-50 top-[48%] bottom-[52%] right-3 pl-3'>
+        <div className='flex flex-col justify-center items-end w-screen fixed z-40 top-[48%] bottom-[52%] right-3 pl-3'>
             <div class="tool-tip">
                 <a href='#profile' className="rounded-full w-8 bg-slate-700/50 hover:bg-slate-300 text-gray-700 mb-2.5 flex justify-center py-2 hover:text-gray-500 hover:-translate-x-3 transform transition ease-in-out delay-150">
                     <FontAwesomeIcon icon={faUser}></FontAwesomeIcon> <span className='tooltiptext '>About</span>
