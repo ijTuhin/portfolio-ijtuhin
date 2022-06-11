@@ -12,45 +12,45 @@ const AboutMe = () => {
                         <h1 className='text-gray-500 ml-[85%] text-xs'>+880-1316797638</h1>
                     </div>
                     <h2 className='text-gray-500 text-sm md:block hidden'>Hello! My name is Israt Jahan Tuhin, a detail-oriented individual with an associate degree in computer science & engineering. I enjoy critical thinking, problem-solving & playful outcomes from programming. In year 2018, I first started my journey as a programmer with C language, then C++. Then, in year 2021, I chose my career path as a React Developer. It's fun to work with codes & ui.</h2>
-                    <h2 className='text-gray-500 text-sm md:block hidden'> Expertise in React.js, and problem-solving. Familiar with Node.js, Express.js, MongoDB, PHP, MYSQL. And Familiar with Python, C/C++. I am an adaptive & fast learner. Thus, I am comfortable working with any environment or new technologies. My Educational Qualifications are as follows</h2>
+                    <h2 className='text-gray-500 text-sm md:block hidden'> Expertise in React.js, HTML, CSS, Tailwind CSS, Bootstrap, any CSS components and problem-solving. Familiar with Node.js, Express.js, MongoDB, PHP, MYSQL, Python, and C/C++. I can create pixel perfect UI using Figma. Being an adaptive & fast learner, I am comfortable working with any environment or new technologies. My Educational Qualifications are as follows</h2>
                     <div className='my-2.5 md:block hidden'>
                         <h1 className='text-lg'>- B.Sc in Computer Science & Engineering</h1>
-                        <h1 className='text-gray-600 mx-3'> International Islamic University Chittagong, <span className='text-sm'>Sitakundo, Chattagram</span></h1>
+                        <h1 className='text-gray-600 mx-3'> International Islamic University Chittagong, <span className='text-sm'>Sitakundo, Chattogram</span></h1>
 
                     </div>
                     <div className='mb-2.5 md:block hidden'>
                         <h1 className='text-lg'>- Higher Secondary Certificate</h1>
-                        <h1 className='text-gray-600 mx-3'> Hajera-Taju University College, <span className=' text-sm'>Chandgaon, Chattagram</span></h1>
+                        <h1 className='text-gray-600 mx-3'> Hajera-Taju University College, <span className=' text-sm'>Chandgaon, Chattogram</span></h1>
 
                     </div>
                     <div className='mb-2.5 md:block hidden'>
                         <h1 className='text-lg'>- Secondary School Certificate</h1>
-                        <h1 className='text-gray-600 mx-3'> Bakolia Government High School, <span className='text-sm'>Bakolia, Chattagram</span></h1>
+                        <h1 className='text-gray-600 mx-3'> Bakolia Government High School, <span className='text-sm'>Bakolia, Chattogram</span></h1>
                     </div>
                     {/* ================== Mobile ================== */}
                     <div className='md:hidden w-[370px]'>
                         <h2 className='text-gray-500 text-sm'>Hello! My name is Israt Jahan Tuhin, a detail-oriented individual with an associate degree in computer science & engineering. I enjoy critical thinking, problem-solving & playful outcomes from programming. In year 2018, I first started my journey as a programmer with C language, then C++. Then, in year 2021, I chose my career path as a React Developer. It's fun to work with codes & ui.</h2>
-                        <h2 className='text-gray-500 text-sm'> Expertise in React.js, and problem-solving. Familiar with Node.js, Express.js, MongoDB, PHP, MYSQL. And Familiar with Python, C/C++. I am an adaptive & fast learner. Thus, I am comfortable working with any environment or new technologies. My Educational Qualifications are as follows,</h2>
+                        <h2 className='text-gray-500 text-sm'> Expertise in React.js, HTML, CSS, Tailwind CSS, Bootstrap, any CSS components and problem-solving. Familiar with Node.js, Express.js, MongoDB, PHP, MYSQL, Python, and C/C++. I can create pixel perfect UI using Figma. Being an adaptive & fast learner, I am comfortable working with any environment or new technologies. My Educational Qualifications are as follows,</h2>
                         <div className='my-2.5'>
                             <h1 className='text-lg'>- B.Sc in Computer Science & Engineering</h1>
-                            <h1 className='text-gray-600 mx-3'> International Islamic University Chittagong, <span className='text-sm'>Sitakundo, Chattagram</span></h1>
+                            <h1 className='text-gray-600 mx-3'> International Islamic University Chittagong, <span className='text-sm'>Sitakundo, Chattogram</span></h1>
 
                         </div>
                         <div className='mb-2.5'>
                             <h1 className='text-lg'>- Higher Secondary Certificate</h1>
-                            <h1 className='text-gray-600 mx-3'> Hajera-Taju University College, <span className=' text-sm'>Chandgaon, Chattagram</span></h1>
+                            <h1 className='text-gray-600 mx-3'> Hajera-Taju University College, <span className=' text-sm'>Chandgaon, Chattogram</span></h1>
 
                         </div>
                         <div className='mb-2.5'>
                             <h1 className='text-lg'>- Secondary School Certificate</h1>
-                            <h1 className='text-gray-600 mx-3'> Bakolia Government High School, <span className='text-sm'>Bakolia, Chattagram</span></h1>
+                            <h1 className='text-gray-600 mx-3'> Bakolia Government High School, <span className='text-sm'>Bakolia, Chattogram</span></h1>
                         </div>
                     </div>
 
                 </div>
                 <div className='w-96 h-96 ml-16 mt-20 relative'>
 
-                    <div className='border-0 z-10 rounded bg-gray-500 w-[12em] h-[12em] absolute top-4 left-14'>
+                    <div className='border-0 z-10 rounded bg-gray-500 w-[12em] h-[12em] absolute top-4 left-14 transition ease-in-out delay-150 hover:-translate-y-1.5 hover:-translate-x-1.5 hover:scale-105'>
                         <img src={portfolio} alt="" />
                     </div>
                     <div className='border border-gray-500 w-[12em] h-[13.80em] absolute top-6 left-16'>

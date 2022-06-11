@@ -17,4 +17,5 @@
   
   .tool-tip:hover .tooltiptext {
     visibility: visible;
+    color: rgb(107 114 128);
   }
