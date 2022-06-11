@@ -1,6 +1,7 @@
-import { faCode, faMessage, faProjectDiagram, faToolbox, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faCode, faMessage, faNoteSticky, faProjectDiagram, faToolbox, faUser } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './MainBodyMenu.css';
 
 const MainBodyMenu = () => {
@@ -20,6 +21,11 @@ const MainBodyMenu = () => {
                 <a href='#project' className="rounded-full w-8 bg-slate-700/50 hover:bg-slate-300 text-gray-700 mb-2.5 flex justify-center py-2 hover:text-gray-500 hover:-translate-x-3 transform transition ease-in-out delay-150">
                     <FontAwesomeIcon icon={faProjectDiagram}></FontAwesomeIcon> <span className='tooltiptext '>Projects</span>
                 </a>
+            </div>
+            <div class="tool-tip">
+                <Link to='/blogs' className="rounded-full w-8 bg-slate-700/50 hover:bg-slate-300 text-gray-700 mb-2.5 flex justify-center py-2 hover:text-gray-500 hover:-translate-x-3 transform transition ease-in-out delay-150">
+                    <FontAwesomeIcon icon={faNoteSticky}></FontAwesomeIcon> <span className='tooltiptext '>Blogs</span>
+                </Link>
             </div>
             <div class="tool-tip">
                 <a href='#service' className="rounded-full w-8 bg-slate-700/50 hover:bg-slate-300 text-gray-700 mb-2.5 flex justify-center py-2 hover:text-gray-500 hover:-translate-x-3 transform transition ease-in-out delay-150">
