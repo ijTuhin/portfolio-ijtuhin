@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { projectI, projectII, projectIII, projectIV, projectV } from '../../index';
 import './Projects.css';

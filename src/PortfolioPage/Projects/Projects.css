@@ -8,7 +8,7 @@
     color: rgb(8 145 178);
 }
 
-.detail:hover .details-box, .detail:hover .detail-header>span{
+.detail:hover .details-box{
     border-color: rgb(8 145 178);
 }
 
