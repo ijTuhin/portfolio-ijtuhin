@@ -27,7 +27,7 @@ const Portfolio = () => {
                 </div>
                 <div id='project'>
                     <Projects></Projects>
-                    <ProblemSolving></ProblemSolving>
+                    {/* <ProblemSolving></ProblemSolving> */}
                 </div>
                 <div id='contact'>
                     <ContactMe></ContactMe>
